@@ -1,1 +1,38 @@
 /* Write your code here. */
+.bg-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 4em;
+  justify-content: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  color: #ffffff;
+}
+.image {
+  width: 50%;
+}
+.result {
+  border-radius: 10px;
+  margin: 3px;
+  height: 40px;
+  padding: 8px;
+  font-weight: bold;
+  width: 50%;
+  max-width: 200px;
+  background-color: #ffffff;
+  color: #1d976c;
+}
+.input-box{
+  border-color: #ffffff;
+  height: 25px;
+  margin: 5px;
+  outline-style: dashed;
+  background-color: transparent;
+  border-radius: 5px;
+}
